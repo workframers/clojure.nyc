@@ -6,9 +6,9 @@
 ## What We're About
 
 The mission of `clojure/nyc` is to foster a fun, collaborative environment for
-idea exchange and learning about the Clojure/ClojureScript languages. We are a
-growing and vibrant group. We welcome participation from everyone - all you
-need is an eagerness to try Clojure!
+idea exchange and learning about Clojure, ClojureScript and their ecosystems. We are a
+growing, friendly and vibrant group. We welcome participation from everyone - all you
+need is an eagerness to learn, share and try Clojure!
 
 Find us here, on [Meetup](https://www.meetup.com/Clojure-NYC/), and on the #nyc
 channel on the [Clojurians](http://clojurians.net/) Slack org.
@@ -17,7 +17,7 @@ Reach out to your organizers anytime at
 <a href="javascript:location='mailto:\u006f\u0072\u0067\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063';void 0"><script type="text/javascript">document.write('\u006f\u0072\u0067\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063')</script></a>
 
 
-## Our Next Event
+## Our Events
 
 In January we'll have two exciting new libraries presented by members!
 
@@ -67,4 +67,3 @@ Ladders
 55 Water Street, 51 Floor
 <br>
 New York, NY
-
