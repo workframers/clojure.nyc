@@ -116,7 +116,8 @@ img.imgfull {
     bottom: 0;
     width: 100%;
     max-width: 280px;
-    background: #2c6cfb;
+    background: #000000;
+    /* background: #2c6cfb; */
     color: #FFF;
     z-index: 3;
     overflow-y: auto;
@@ -283,4 +284,3 @@ img.imgfull {
     }
 
 }
-
