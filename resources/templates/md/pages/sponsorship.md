@@ -62,4 +62,4 @@ and we'd be happy to work with you to figure out the right form of sponsorship.
 
 **I'm an individual -- can I sponsor `clojure/nyc`?**
 
-Yes! We love the support of our individual members. To make a donation, contact us. In the very near future, you'll be able to support us with a simple online donation.
+Yes! We love the support of our individual members. To make a donation, please visit [our Meetup contributions page](https://secure.meetup.com/Clojure-NYC/contribute/).
