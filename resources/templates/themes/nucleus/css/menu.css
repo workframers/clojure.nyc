@@ -1,8 +1,9 @@
 /** Menu Styles **/
 #logo
 {
+  margin-top: 20px;
 	background:url(/img/clj-nyc.png) no-repeat center center;
-	height:100px;
+	height: 100px;
   background-size: contain;
 }
 
