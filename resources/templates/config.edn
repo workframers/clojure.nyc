@@ -1,6 +1,6 @@
-{:site-title           "clojure/nyc"
- :author               "clojure/nyc"
- :description          "The mission of clojure/nyc is to foster a fun,
+{:site-title           "Clojure/NYC"
+ :author               "Clojure/NYC"
+ :description          "The mission of Clojure/NYC is to foster a fun,
                        collaborative environment for idea exchange and learning
                        about the Clojure/ClojureScript languages."
  :site-url             "http://clojure.nyc"

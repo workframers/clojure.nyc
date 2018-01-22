@@ -50,17 +50,17 @@ body {
 }
 
 ::selection {
-    background: #2c6cfb;
+    background: #71bf48;
     color: #FFF;
 }
 
 ::-moz-selection {
-    background: #2c6cfb;
+    background: #71bf48;
     color: #FFF;
 }
 
 a {
-    color: #2c6cfb;
+    color: #71bf48;
     text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ img.imgfull {
     width: 100%;
     max-width: 1000px;
     margin: 0 0 20px 0;
-    border-top: 5px solid #2c6cfb;
+    border-top: 5px solid #71bf48;
 }
 
 /* ==================================================
@@ -117,7 +117,7 @@ img.imgfull {
     width: 100%;
     max-width: 280px;
     background: #000000;
-    /* background: #2c6cfb; */
+    /* background: #71bf48; */
     color: #FFF;
     z-index: 3;
     overflow-y: auto;

@@ -4,20 +4,20 @@
  :navbar? true}
 
 If you're interested in promoting your brand and interacting with the Clojure
-community in New York, `clojure/nyc` is great way to reach more than 1,500 (and growing!)
-Clojurists.
+community in New York, Clojure/NYC is great way to reach more than 1,500
+(and growing!) Clojurists.
 
-Here are some of the things that all `clojure/nyc` sponsors get:
+Here are some of the things that all Clojure/NYC sponsors get:
 
-- Branding: We'll put your logo on the official `clojure/nyc` and
-  `ClojureBridge NYC` t-shirts, and on the clojure.nyc website.
+- Branding: We'll put your logo on the official Clojure/NYC and
+  ClojureBridge NYC t-shirts, and on the clojure.nyc website.
 - Shout-outs: We'll mention your organization at the start of each event. We'll
   also tweet about you -- just tell us what you'd like folks to know.
 - Highlighted Job Openings: We'll list and highlight any job openings you've
   got available on our newsletter, which goes out to our mailing list full of
   awesome Clojure engineers.
-- Swag distribution: If you'd like to give out merch, we'll hand it out to attendees at our
-  events.
+- Swag distribution: If you'd like to give out merch, we'll hand it out to
+- attendees at our events.
 - Placement: We'll include information about your organization as part
   ClojureBridge NYC materials.
 
@@ -36,7 +36,7 @@ placement and recognition.
 
 **I'm interested! How do I become a sponsor?**
 
-We encourage our sponsors to reach out to the `clojure/nyc` organizing team
+We encourage our sponsors to reach out to the Clojure/NYC organizing team
 directly. You can do so by emailing
 <a href="javascript:location='mailto:\u006a\u006f\u0072\u0067\u0065\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063';void 0"><script type="text/javascript">document.write('\u006a\u006f\u0072\u0067\u0065\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063')</script></a>.
 
@@ -50,16 +50,16 @@ programming workshops for underrepresented groups in tech.
 
 **How long does sponsorship last?**
 
-Sponsorship lasts for one calendar year and covers all of the `clojure/nyc` and
+Sponsorship lasts for one calendar year and covers all of the Clojure/NYC and
 ClojureBridge NYC events.
 
 **I'd like to sponsor, but your sponsorhips levels aren't a good fit for my
-organization. How else can I support `clojure/nyc`?**
+organization. How else can I support Clojure/NYC?**
 
 We understand that our specified sponsorship levels don't work for every
 organization. Contact <a href="javascript:location='mailto:\u006a\u006f\u0072\u0067\u0065\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063';void 0"><script type="text/javascript">document.write('\u006a\u006f\u0072\u0067\u0065\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063')</script></a>
 and we'd be happy to work with you to figure out the right form of sponsorship.
 
-**I'm an individual -- can I sponsor `clojure/nyc`?**
+**I'm an individual -- can I sponsor Clojure/NYC?**
 
 Yes! We love the support of our individual members. To make a donation, please visit [our Meetup contributions page](https://secure.meetup.com/Clojure-NYC/contribute/).

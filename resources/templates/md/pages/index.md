@@ -1,11 +1,11 @@
-{:title "clojure/nyc"
+{:title "Clojure/NYC"
  :layout :page
  :page-index 0
  :home? true}
 
 ## What We're About
 
-The mission of Clojure/nyc is to foster a fun, collaborative environment for
+The mission of Clojure/NYC is to foster a fun, collaborative environment for
 idea exchange and learning about Clojure, ClojureScript and their ecosystems. We are a
 growing, friendly and vibrant group. We welcome participation from everyone - all you
 need is an eagerness to learn, share and try Clojure!
