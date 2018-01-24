@@ -34,12 +34,12 @@
 
 .button {
     background: none;
-    border: 2px solid #71bf48;
-    color: #71bf48 !important;
+    border: 2px solid #39FF70;
+    color: #39FF70 !important;
 }
 
 .button:hover {
-    background: #71bf48;
+    background: #39FF70;
     color: #FFF !important;
 }
 
