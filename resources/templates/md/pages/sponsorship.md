@@ -53,8 +53,7 @@ programming workshops for underrepresented groups in tech.
 Sponsorship lasts for one calendar year and covers all of the Clojure/NYC and
 ClojureBridge NYC events.
 
-**I'd like to sponsor, but your sponsorhips levels aren't a good fit for my
-organization. How else can I support Clojure/NYC?**
+**I'd like to sponsor, but your sponsorhips levels aren't a good fit for my organization. How else can I support Clojure/NYC?**
 
 We understand that our specified sponsorship levels don't work for every
 organization. Contact <a href="javascript:location='mailto:\u006a\u006f\u0072\u0067\u0065\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063';void 0"><script type="text/javascript">document.write('\u006a\u006f\u0072\u0067\u0065\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063')</script></a>
