@@ -20,7 +20,8 @@ var dateFormat=function(){var t=/d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"
   /** Meetup **/
 
   var signedUrls = {
-    nextUpcoming: "https://api.meetup.com/Clojure-nyc/events?desc=true&scroll=next_upcoming&photo-host=public&page=1&sig_id=118155582&sig=2706dede4854566fe13ea35d7b0c7bafd7193716"
+    nextUpcoming: "https://api.meetup.com/Clojure-nyc/events?desc=true&scroll=next_upcoming&photo-host=public&page=1&sig_id=118155582&sig=2706dede4854566fe13ea35d7b0c7bafd7193716",
+    past: "https://api.meetup.com/Clojure-nyc/events?desc=true&scroll=recent_past&photo-host=public&page=20&sig_id=10527166&sig=e294640d82ed254310ae89d8620d108cb38a5ebb"
   };
 
   function loadEvents($el, url, cb) {
@@ -46,23 +47,66 @@ var dateFormat=function(){var t=/d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"
         var venue = event.venue;
 
         $nextUpcoming.html(
-          // Description
-          "<div>" + event.description + "</div><br/>" +
+          // Name
+          "<p><strong>" + event.name + "</strong></p>" +
 
-          // Registration Link
-          "<p><strong>Register</strong><br/>" +
-          "<a href='" + event.link + "'>" + event.link + "</a></p>" +
+          // Description
+          "<p>" + event.description + "</p>" +
 
           // Date and Time
-          "<p><strong>Date and Time</strong><br/>" +
-          dateFormat(dateStr, 'fullDate') + "<br/>" +
+          "<p><strong>Date: </strong>" +
+          dateFormat(dateStr, 'fullDate') + ", " +
           dateFormat(dateStr, 'h:MM TT') + "</p>" +
 
           // Location
-          "<p><strong>Location</strong><br/>" +
+          "<p><strong>Location: </strong><br/>" +
           venue.name + "<br/>" + venue.address_1 + "<br />" +
-          venue.city + "," + venue.state + "</p>"
+          venue.city + "," + venue.state + "</p>" +
+
+          // Registration Link
+          "<p><strong>Registration: </strong>" +
+          "<a href='" + event.link + "'>" + event.link + "</a></p><hr>"
         );
+      });
+    }
+  }
+
+  function getPast() {
+    var $past = $("#past");
+
+    if ($past) {
+      loadEvents($past,
+        signedUrls.past
+      ).done(function(resp) {
+        $past[0].innerHTML = "";
+        for(var i = 0; i < resp.data.length; i++) {
+          var event = resp.data[i];
+          var dateStr = event.local_date + ":" + event.local_time;
+          var venue = event.venue;
+
+          $past.html(
+            $past[0].innerHTML +
+            // Name
+            "<p><strong>" + event.name + "</strong></p>" +
+
+            // Description
+            "<p>" + event.description + "</p>" +
+
+            // Date and Time
+            "<p><strong>Date: </strong>" +
+            dateFormat(dateStr, 'fullDate') + ", " +
+            dateFormat(dateStr, 'h:MM TT') + "</p>" +
+
+            // Location
+            "<p><strong>Location: </strong><br/>" +
+            venue.name + "<br/>" + venue.address_1 + "<br />" +
+            venue.city + "," + venue.state + "</p>" +
+
+            // Registration Link
+            "<p><strong>Registration: </strong>" +
+            "<a href='" + event.link + "'>" + event.link + "</a></p><hr>"
+          );
+        }
       });
     }
   }
@@ -81,6 +125,7 @@ var dateFormat=function(){var t=/d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"
 
   $(function() {
     getNextUpcoming();
+    getPast();
     initMenu();
   });
 })(window.jQuery);

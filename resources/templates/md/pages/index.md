@@ -5,10 +5,10 @@
 
 ## What We're About
 
-The mission of Clojure/NYC is to foster a fun, collaborative environment for
+The mission of Clojure/NYC is to foster a welcoming, collaborative environment for
 idea exchange and learning about Clojure, ClojureScript and their ecosystems. We are a
 growing, friendly and vibrant group. We welcome participation from everyone - all you
-need is an eagerness to learn, share and try Clojure!
+need is an eagerness to learn and share Clojure!
 
 Find us here, on [Meetup](https://www.meetup.com/Clojure-NYC/), and on the [#nyc](https://clojurians.slack.com/messages/nyc/)
 channel on the [Clojurians](http://clojurians.net/) Slack org.
@@ -21,6 +21,6 @@ Reach out to your organizers anytime at
 We collect feedback from our community members periodically. Tell us how we're doing and what you would like to
 see [here](https://goo.gl/forms/LzsHMoK1tJwyRJQt1).
 
-## Our Events
+## Upcoming/Recent Events
 
 <div id="next-upcoming" class="loading">Loading...</div>

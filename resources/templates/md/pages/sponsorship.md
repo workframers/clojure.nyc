@@ -29,7 +29,7 @@ We offer three sponsorship levels:
 - $2,500
 - $5,000
 
-All sponsors receive the all benefits, but our larger sponsors get more prominent
+All sponsors receive the full set of benefits, but our larger sponsors get more prominent
 placement and recognition.
 
 ## FAQs
