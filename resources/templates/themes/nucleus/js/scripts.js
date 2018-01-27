@@ -104,8 +104,12 @@ var dateFormat=function(){var t=/d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"
 
             // Registration Link
             "<p><strong>Registration: </strong>" +
-            "<a href='" + event.link + "'>" + event.link + "</a></p><hr>"
+            "<a href='" + event.link + "'>" + event.link + "</a></p>"
           );
+
+          if (i < resp.data.length-1) {
+            $past[0].innerHTML += "<hr>"
+          }
         }
       });
     }
