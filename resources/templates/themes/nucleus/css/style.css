@@ -43,24 +43,24 @@ body {
     color: #555;
     font-weight: 400;
     line-height: 28px;
-    background: #FFF;
+    background: #F5FBEF;
 
     text-rendering: optimizeLegibility;
     vertical-align: baseline;
 }
 
 ::selection {
-    background: #39FF70;
+    background: #84C318;
     color: #FFF;
 }
 
 ::-moz-selection {
-    background: #39FF70;
+    background: #84C318;
     color: #FFF;
 }
 
 a {
-    color: #748B75;
+    color: #85C318;
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ a:hover {
 }
 
 .loading {
-  color: #39FF70;
+  color: #84C318;
   min-height: 80vh;
 }
 
@@ -92,7 +92,7 @@ img.imgfull {
     width: 100%;
     max-width: 1000px;
     margin: 0 0 20px 0;
-    border-top: 5px solid #39FF70;
+    border-top: 5px solid #84C318;
 }
 
 /* ==================================================
@@ -126,7 +126,7 @@ img.imgfull {
     width: 100%;
     max-width: 280px;
     background: #203330;
-    /* background: #39FF70; */
+    /* background: #84C318; */
     color: #FFF;
     z-index: 3;
     overflow-y: auto;
