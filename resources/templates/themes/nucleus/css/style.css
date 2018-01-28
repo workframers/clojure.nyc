@@ -60,7 +60,7 @@ body {
 }
 
 a {
-    color: #39FF70;
+    color: #748B75;
     text-decoration: none;
 }
 
@@ -195,6 +195,7 @@ img.imgfull {
 }
 
 #right {
+    background: #F5FBEF;
     position: absolute;
     top: 0;
     left: 0;
