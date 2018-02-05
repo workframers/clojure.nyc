@@ -24,6 +24,30 @@ var dateFormat=function(){var t=/d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"
     past: "https://api.meetup.com/Clojure-nyc/events?desc=true&scroll=recent_past&photo-host=public&page=20&sig_id=10527166&sig=e294640d82ed254310ae89d8620d108cb38a5ebb"
   };
 
+  function toHtmlString (event, venue, date) {
+    return (
+      // Name
+      "<p><strong>" + event.name + "</strong></p>" +
+
+      // Description
+      "<p>" + event.description + "</p>" +
+
+      // Date and Time
+      "<p><strong>Date: </strong>" +
+      dateFormat(date, 'fullDate') + ", " +
+      dateFormat(date, 'h:MM TT') + "</p>" +
+
+      // Location
+      "<p><strong>Location: </strong><br/>" +
+      venue.name + "<br/>" + venue.address_1 + "<br />" +
+      venue.city + "," + venue.state + "</p>" +
+
+      // Registration Link
+      "<p><strong>Registration: </strong>" +
+      "<a href='" + event.link + "'>" + event.link + "</a></p>"
+    );
+  }
+
   function loadEvents($el, url, cb) {
     return $.ajax(url, {
       jsonp: "callback",
@@ -38,35 +62,16 @@ var dateFormat=function(){var t=/d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"
   function getNextUpcoming() {
     var $nextUpcoming = $("#next-upcoming");
 
-    if ($nextUpcoming) {
-      loadEvents($nextUpcoming,
+    if ($nextUpcoming.length) {
+      loadEvents(
+        $nextUpcoming,
         signedUrls.nextUpcoming
       ).done(function(resp) {
         var event = resp.data["0"];
-        var dateStr = event.local_date + ":" + event.local_time;
+        var date = new Date(event.time);
         var venue = event.venue;
 
-        $nextUpcoming.html(
-          // Name
-          "<p><strong>" + event.name + "</strong></p>" +
-
-          // Description
-          "<p>" + event.description + "</p>" +
-
-          // Date and Time
-          "<p><strong>Date: </strong>" +
-          dateFormat(dateStr, 'fullDate') + ", " +
-          dateFormat(dateStr, 'h:MM TT') + "</p>" +
-
-          // Location
-          "<p><strong>Location: </strong><br/>" +
-          venue.name + "<br/>" + venue.address_1 + "<br />" +
-          venue.city + "," + venue.state + "</p>" +
-
-          // Registration Link
-          "<p><strong>Registration: </strong>" +
-          "<a href='" + event.link + "'>" + event.link + "</a></p>"
-        );
+        $nextUpcoming.html(toHtmlString(event, venue, date));
       });
     }
   }
@@ -74,41 +79,24 @@ var dateFormat=function(){var t=/d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"
   function getPast() {
     var $past = $("#past");
 
-    if ($past) {
-      loadEvents($past,
+    if ($past.length) {
+      loadEvents(
+        $past,
         signedUrls.past
       ).done(function(resp) {
         $past[0].innerHTML = "";
-        for(var i = 0; i < resp.data.length; i++) {
+
+        for (var i = 0; i < resp.data.length; i++) {
           var event = resp.data[i];
-          var dateStr = event.local_date + ":" + event.local_time;
+          var date = new Date(event.time);
           var venue = event.venue;
 
           $past.html(
-            $past[0].innerHTML +
-            // Name
-            "<p><strong>" + event.name + "</strong></p>" +
-
-            // Description
-            "<p>" + event.description + "</p>" +
-
-            // Date and Time
-            "<p><strong>Date: </strong>" +
-            dateFormat(dateStr, 'fullDate') + ", " +
-            dateFormat(dateStr, 'h:MM TT') + "</p>" +
-
-            // Location
-            "<p><strong>Location: </strong><br/>" +
-            venue.name + "<br/>" + venue.address_1 + "<br />" +
-            venue.city + "," + venue.state + "</p>" +
-
-            // Registration Link
-            "<p><strong>Registration: </strong>" +
-            "<a href='" + event.link + "'>" + event.link + "</a></p>"
+            $past[0].innerHTML + toHtmlString(event, venue, date)
           );
 
           if (i < resp.data.length-1) {
-            $past[0].innerHTML += "<hr>"
+            $past[0].innerHTML += "<hr>";
           }
         }
       });
