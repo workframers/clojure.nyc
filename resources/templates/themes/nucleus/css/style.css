@@ -85,6 +85,9 @@ img {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
+
+    height: auto;
+    max-width: 100%;
 }
 
 img.imgfull {
@@ -207,6 +210,7 @@ img.imgfull {
 
 #right p {
     margin: 0 0 20px 0;
+    word-break: break-word;
 }
 
 #right p:last-child {
