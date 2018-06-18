@@ -1,6 +1,6 @@
 {:title "Sponsorship"
  :layout :page
- :page-index 2
+ :page-index 3
  :navbar? true}
 
 If you're interested in promoting your brand and interacting with the Clojure

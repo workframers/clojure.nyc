@@ -1,6 +1,6 @@
 {:title "Code of Conduct"
  :layout :page
- :page-index 3
+ :page-index 4
  :navbar? true}
 
 Clojure NYC is dedicated to providing a harassment-free community for everyone, regardless of sex, gender identity or expression, sexual orientation, disability, physical appearance, age, body size, race, nationality, or religious beliefs. We do not tolerate harassment of community members in any form. Participants violating these rules may be sanctioned or expelled from the community at the discretion of the Clojure NYC organizers.
