@@ -5,7 +5,7 @@
 
 ## Why ClojureBridge?
 
-ClojureBridge aims to increase diversity within the Clojure community by offering free, beginner-friendly Clojure programming workshops for underrepresented groups in tech. We are loosely associated with [Bridge Foundry](https://bridgefoundry.org/) and [Bridge Troll](https://www.bridgetroll.org/events/430).
+ClojureBridge NYC aims to increase diversity within the Clojure community by offering free, beginner-friendly Clojure programming workshops for underrepresented groups in tech. We are loosely associated with [ClojureBridge.org](http://www.clojurebridge.org/), [Bridge Foundry](https://bridgefoundry.org/) and [Bridge Troll](https://www.bridgetroll.org/events/430).
 
 ## The Workshops
 
