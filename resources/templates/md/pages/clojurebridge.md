@@ -13,7 +13,7 @@ ClojureBridge workshops are intended to reach women, non-binary people, and all 
 
 In these workshops, instructors will share the basics of functional programming in Clojure, a powerful language that descends from classic functional languages and is actively used today to build everything from web applications and mobile apps to large-scale distributed systems and artificial intelligence.
 
-To attend most ClojureBridge events, you should have at least some familiarity with some other programming language (perhaps Ruby, Python, or Javascript). Students will be separated into different groups based on the experience level they choose when signing up. If you are completely new to programming, look out for future ColjureBridge events which will embrace teaching Clojure as your first programming language.
+To attend most ClojureBridge events, you should have at least some familiarity with another programming language (perhaps Ruby, Python, or Javascript). Students will be separated into different groups based on the experience level they choose when signing up. If you are completely new to programming, look out for future ColjureBridge events which will embrace teaching Clojure as your first programming language.
 
 ## Events
 
