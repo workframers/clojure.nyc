@@ -38,7 +38,7 @@ placement and recognition.
 
 We encourage our sponsors to reach out to the Clojure/NYC organizing team
 directly. You can do so by emailing
-<a href="javascript:location='mailto:\u006a\u006f\u0072\u0067\u0065\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063';void 0"><script type="text/javascript">document.write('\u006a\u006f\u0072\u0067\u0065\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063')</script></a>.
+<a href="javascript:location='mailto:org@clojure.nyc';void 0"><script type="text/javascript">document.write('org@clojure.nyc')</script></a>.
 
 **What do the sponsored funds cover?**
 
@@ -56,7 +56,7 @@ ClojureBridge NYC events.
 **I'd like to sponsor, but your sponsorhips levels aren't a good fit for my organization. How else can I support Clojure/NYC?**
 
 We understand that our specified sponsorship levels don't work for every
-organization. Contact <a href="javascript:location='mailto:\u006a\u006f\u0072\u0067\u0065\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063';void 0"><script type="text/javascript">document.write('\u006a\u006f\u0072\u0067\u0065\u0040\u0063\u006c\u006f\u006a\u0075\u0072\u0065\u002e\u006e\u0079\u0063')</script></a>
+organization. Contact <a href="javascript:location='mailto:org@clojure.nyc';void 0"><script type="text/javascript">document.write('org@clojure.nyc')</script></a>
 and we'd be happy to work with you to figure out the right form of sponsorship.
 
 **I'm an individual -- can I sponsor Clojure/NYC?**
