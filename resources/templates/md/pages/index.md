@@ -22,7 +22,3 @@ Reach out to your organizers anytime at
 
 We collect feedback from our community members periodically. Tell us how we're doing and what you would like to
 see [here](https://goo.gl/forms/LzsHMoK1tJwyRJQt1).
-
-## Upcoming/Recent Events
-
-<div id="next-upcoming" class="loading">Loading...</div>
