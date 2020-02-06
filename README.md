@@ -15,7 +15,7 @@
 
 ## Static Location
 
-    resources/public/
+    public/
 
 ## Automatic Deploy (Netlify)
 

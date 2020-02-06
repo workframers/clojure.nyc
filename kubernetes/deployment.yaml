@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clojure-nyc-website
+  labels:
+    app: clojure-nyc-website
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: clojure-nyc-website
+  template:
+    metadata:
+      labels:
+        app: clojure-nyc-website
+    spec:
+      containers:
+      - name: clojure-nyc-website
+        image: gcr.io/luchini-nyc/clojure-nyc-website
+        ports:
+        - containerPort: 80
