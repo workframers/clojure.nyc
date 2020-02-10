@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: clojure-nyc-website
-        image: gcr.io/luchini-nyc/clojure-nyc-website
+        image: gcr.io/luchini-nyc/clojure-nyc-website:v0.5
         ports:
         - containerPort: 80
+        - containerPort: 443

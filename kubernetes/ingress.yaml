@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: clojure-nyc-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: clojure-nyc-website
+    kubernetes.io/ingress.allow-http: "false"
+    networking.gke.io/managed-certificates: clojure-nyc-certificate
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /*
+        backend:
+          serviceName: clojure-nyc-website
+          servicePort: 60000
+  - http:
+      paths:
+      - path: /*
+        backend:
+          serviceName: clojure-nyc-website
+          servicePort: 60001

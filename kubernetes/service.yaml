@@ -6,7 +6,12 @@ spec:
   selector:
     app: clojure-nyc-website
   ports:
-    - protocol: TCP
-      port: 80
+    - name: http
+      protocol: TCP
+      port: 60000
       targetPort: 80
-  type: LoadBalancer
+    - name: https
+      protocol: TCP
+      port: 60001
+      targetPort: 443
+  type: NodePort
